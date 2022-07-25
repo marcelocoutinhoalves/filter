@@ -1,0 +1,111 @@
+.card{
+    width: 18rem;
+    padding: .5rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.card-grass:hover{
+    box-shadow: 0 0 30px #9BCC50;
+    transition: box-shadow .2s;
+}
+
+.card-fire:hover{
+    box-shadow: 0 0 30px #FD7D24;
+    transition: box-shadow .2s;
+}
+
+.card-bug:hover{
+    box-shadow: 0 0 30px #729F3F;
+    transition: box-shadow .2s;
+}
+
+.card-electric:hover{
+    box-shadow: 0 0 30px #EED535;
+    transition: box-shadow .2s;
+}
+
+.card-water:hover{
+    box-shadow: 0 0 30px #4592C4;
+    transition: box-shadow .2s;
+}
+
+.card-ghost:hover{
+    box-shadow: 0 0 30px #7A61A2;
+    transition: box-shadow .2s;
+}
+
+.card-header img {
+    width: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: start;
+    gap: 1.2rem;
+}
+
+.card-body span{
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: rgba(155, 154, 154, 0.89);
+}
+
+.card-body h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.pokemon-type{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.pokemon-type span {
+    width: 5rem;
+    padding: .5rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+
+    border: 1px solid;
+    border-radius: 10px; 
+}
+
+.pokemon-bug span {
+    background-color: #729F3F;
+    color: white;
+}
+
+.pokemon-fire span {
+    background-color: #FD7D24;
+    color: white;
+}
+
+.pokemon-electric span {
+    background-color: #EED535;
+    color: black;
+}
+
+.pokemon-water span {
+    background-color: #4592C4;
+    color: white;
+}
+
+.pokemon-ghost span {
+    background-color: #7A61A2;
+    color: white;
+}
+
+.pokemon-grass span {
+    background-color: #9BCC50;
+    color: white;
+}

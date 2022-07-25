@@ -1,0 +1,108 @@
+.navbar {
+    margin-bottom: 20px;
+    background-color: white;
+    height: 80px;
+}
+
+.container {
+    max-width: 70vw;
+    margin: 0 auto;
+    padding-right: 5px;
+    height: 100%;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu a{
+    width: 80px;
+    height: 40px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+
+    border-radius: 5px;
+   
+}
+
+.all {
+    background-color: #4A4AFF; 
+    color: white
+}
+
+.all:hover {
+    background-color: #3535bd;
+    transition: background-color .5s;
+}
+
+.bug {
+    background-color: #729F3F; 
+    color: white
+}
+
+.bug:hover {
+    background-color: #4d8016;
+    transition: background-color .5s;
+}
+
+.fire {
+    background-color: #FD7D24; 
+    color: white
+}
+
+.fire:hover {
+    background-color: #d65e09;
+    transition: background-color .5s;
+}
+
+.electric {
+    background-color: #EED535; 
+    color: black
+}
+
+.electric:hover {
+    background-color: #ccb414;
+    transition: background-color .5s;
+}
+
+.water {
+    background-color: #4592C4; 
+    color: white
+}
+
+.water:hover {
+    background-color: #186fa8;
+    transition: background-color .5s;
+}
+
+.ghost {
+    background-color: #7A61A2; 
+    color: white
+}
+
+.ghost:hover {
+    background-color: #4e3575;
+    transition: background-color .5s;
+}
+
+.grass {
+    background-color: #9BCC50; 
+    color: white
+}
+
+.grass:hover {
+    background-color: #74af1b;
+    transition: background-color .5s;
+}
